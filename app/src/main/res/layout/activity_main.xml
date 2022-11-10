@@ -8,24 +8,35 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/stonkCounter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Dimulai dari 0 ya mas" />
+        android:text="Username" />
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Username"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Username"/>
+    <EditText
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
 
     <Button
         android:layout_gravity="center"
-        android:id="@+id/stonk"
+        android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Stonk!" />
+        android:text="Stonk!"/>
 
-    <Button
-        android:layout_gravity="center"
-        android:id="@+id/notStonk"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Not Stonk!" />
+
 
 </LinearLayout>
